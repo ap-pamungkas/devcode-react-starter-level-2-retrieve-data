@@ -15,6 +15,8 @@ const ContactManager = () => {
   const handleGetContactsData = async () => {
     const res = await getAllContactsData();
     setContactsData(res?.data?.data);
+    
+    
   };
 
   // TODO: Uncomment baris kode di bawah ini untuk memanggil fungsi handleGetContactsData setelah halaman contacts selesai dirender
